@@ -98,14 +98,16 @@ export const Main = () => {
           <div className="main__content">
             <h1 className="main__title">Front-End <br /> Developer</h1>
               <p className="main__text">
-                I’m a 16-year-old Front-End Developer
-                at the <br /> start of my journey.
+                I’m a 16-year-old <span className="main__span">Front-End Developer </span>
+                at the start of my journey.
                 I’ve completed a <br /> development course and built personal <br />
                 projects to grow my skills. <br />
               </p>
               <span className="main__subtext">
-                I’m passionate about creating clean, <br />
-                responsive websites and always <br />
+                I’m passionate about creating <span className="main__span">
+                  clean, <br />
+                  responsive websites
+                </span> and always <br />
                 looking to improve and learn more. <br />
               </span>
           </div>
