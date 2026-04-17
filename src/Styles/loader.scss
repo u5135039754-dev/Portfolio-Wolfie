@@ -14,10 +14,14 @@
   &__title {
     font-family: Sharpie;
     color: #f1f1f1;
-    font-size: 100px;
+    font-size: 70px;
 
     animation: flip 2s infinite;
-    animation-delay: calc(.2s * var(--i))
+    animation-delay: calc(.2s * var(--i));
+
+    @include on-tablet {
+      font-size: 100px;
+    }
   }
 }
 
