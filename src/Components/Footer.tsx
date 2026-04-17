@@ -17,11 +17,11 @@ export const Footer = () => {
       event.target,
       '0RAakZrZJpkbIPJ3r'
     )
-    .then((result) => {
+    .then(() => {
       toast.success("Success");
       event.target.reset();
     })
-    .catch((error) => {
+    .catch(() => {
       toast.error("Error");
     });
   };
