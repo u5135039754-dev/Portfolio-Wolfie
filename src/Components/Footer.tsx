@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com'
 import { toast } from 'react-toastify';
 
 export const Footer = () => {
-  const sendEmail = (event) => {
+  const sendEmail = (event: { preventDefault: () => void; target: HTMLFormElement; }) => {
     event.preventDefault();
 
     toast.info("Sending Message...");
@@ -19,7 +19,7 @@ export const Footer = () => {
     )
     .then(() => {
       toast.success("Success");
-      event.target.reset();
+      (event.target as HTMLFormElement).reset();
     })
     .catch(() => {
       toast.error("Error");

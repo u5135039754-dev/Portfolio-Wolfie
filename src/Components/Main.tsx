@@ -20,13 +20,6 @@ import node from '../images/IT lang/node.png'
 import react from '../images/IT lang/react.png'
 import { useState } from 'react';
 
-type Skill = {
-  name: string;
-  image: string;
-  text: string;
-}
-
-
 const skills1 = [
   {
     image: html,
@@ -95,8 +88,8 @@ const skills3 = [
 ]
 
 export const Main = () => {
-  const [skill, setSkill] = useState<string | Skill>('Skills');
-  const [skillText, setSkillText] = useState<string | Skill>('Hint: click on an icon');
+  const [skill, setSkill] = useState<string>('Skills');
+  const [skillText, setSkillText] = useState<string>('Hint: click on an icon');
   
   return (
     <main className="main section">
