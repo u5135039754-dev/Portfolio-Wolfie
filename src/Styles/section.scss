@@ -1,0 +1,32 @@
+.section {
+  margin-bottom: 130px;
+
+  @include on-tablet {
+    margin-bottom: 150px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+
+    color: #f1f1f1;
+    font-weight: 400;
+    font-size: 60px;
+
+    @include on-tablet {
+      font-size: 80px;
+      margin-bottom: 80px;
+    }
+  }
+
+  &__subtitle {
+    margin: 0;
+    font-family: Plus, sans-serif;
+    font-size: 15px;
+    color: #f1f1f1;
+
+    max-width: 450px;
+  }
+}

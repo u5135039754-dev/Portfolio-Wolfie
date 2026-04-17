@@ -1,0 +1,16 @@
+@import './Styles/header.scss';
+@import './Fonts/fonts.scss';
+@import './Styles/utils/mixins';
+@import './Styles/utils/vars';
+@import './Styles/nav.scss';
+@import './Styles/loader.scss';
+@import './Styles/main.scss';
+@import './Styles/section.scss';
+@import './Styles/footer.scss';
+
+body {
+  margin: 0;
+  background: #0a0a0a;
+  font-family: Tanker;
+  color: #000;
+}
