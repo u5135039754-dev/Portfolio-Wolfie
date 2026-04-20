@@ -1,4 +1,4 @@
-import me from '../images/photo_2026-04-14_08-31-52.jpg';
+import me from '../images/photo_2026-04-20_10-11-08.jpg';
 import animationGit from '../Animations/Github/github.svg';
 import animationInsta from '../Animations/Instagram/instagram.svg';
 import animationLinked from '../Animations/Linkedin/linkedin.svg';
@@ -10,7 +10,7 @@ import js from '../images/IT lang/js.png'
 import css from '../images/IT lang/css-3.png'
 import sass from '../images/IT lang/sass.png'
 import html from '../images/IT lang/html-5.png'
-import vue from '../images/IT lang/vuejs.png'
+import vite from '../images/IT lang/vuejs.png'
 import typescript from '../images/IT lang/typescript.png'
 import git from '../images/IT lang/git.png'
 import npm from '../images/IT lang/npm.png'
@@ -37,9 +37,9 @@ const skills1 = [
     "Text": 'Sass is a CSS preprocessor that adds features like variables, nesting, and mixins to make writing and managing styles easier.'
   },
   { 
-    image: vue,
-    "Name": 'Vue.js',
-    "Text": 'An approachable, performant and versatile framework for building web user interfaces.'
+    image: vite,
+    "Name": 'Vite.js',
+    "Text": 'Vite is a fast web development build tool for modern JavaScript apps.'
   },
 ]
 const skills2 = [
@@ -98,7 +98,7 @@ export const Main = () => {
           <div className="main__content">
             <h1 className="main__title">Front-End <br /> Developer</h1>
               <p className="main__text">
-                I’m a 16-year-old <span className="main__span">Front-End Developer </span>
+                I’m a 16-year-old <span className="main__span">Front-End Developer </span> <br />
                 at the start of my journey.
                 I’ve completed a <br /> development course and built personal <br />
                 projects to grow my skills. <br />

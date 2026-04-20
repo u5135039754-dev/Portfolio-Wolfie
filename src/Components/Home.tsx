@@ -4,6 +4,10 @@ import { Main } from "./Main"
 
 export const Home = () => {
   return (
-    <><Header /><Main /><Footer/></>
+    <><Header />
+      <div className="page__line"></div>
+      <Main />
+      <div className="page__line"></div>
+      <Footer /></>
   )
 }
