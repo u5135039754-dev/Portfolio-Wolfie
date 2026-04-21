@@ -14,21 +14,3 @@ body {
   font-family: Tanker;
   color: #000;
 }
-
-.page {
-  &__line {
-    @include on-tablet {
-      z-index: -5;
-
-      position: fixed;
-      top: 0;
-      right: 50%;
-
-      width: 1px;
-      height: 100vh;
-
-      background-color: #1D1D1D;
-      box-shadow: 0 0 5px 0 #1D1D1D;
-    }
-  }
-}
